@@ -1,0 +1,7 @@
+../../tbench/iram.vhd 
+../../tbench/mt48lc16m16a2.vhd 
+../../tbench/testmod.vhd 
+../../tbench/bprom.vhd
+../../tbench/tbgen.vhd 
+../../tbench/tbdef.vhd 
+../../tbench/tbsoc.vhd 

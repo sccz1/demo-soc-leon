@@ -1,0 +1,25 @@
+#!/bin/bash
+
+\rm -r * 2>/dev/null
+cat <<HH > sim.do 
+vlib work
+vcom -93  /tools/novas/Verdi2009/share/PLI/modelsim_fli_latest/LINUX64/novas.vhd
+vlog      -f ../../filelist/vlog.list  
+vcom -93  -f ../../filelist/vhdl.list 
+vcom -93  -f ../../filelist/tvhdl.list 
+HH
+
+if [ $# == 1 ] ; then
+  echo "vsim $1" >> sim.do
+else
+  echo "vsim -pli novas_fli.so novas tb_func32" >> sim.do
+fi
+
+cat <<HH >> sim.do 
+fsdbDumpfile ../waves/soc.fsdb
+fsdbDumpvars 0 tbsoc          
+run -all
+HH
+
+
+vsim -c -do ./sim.do | tee ../sim.log

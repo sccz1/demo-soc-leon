@@ -1,0 +1,4 @@
+\rm -r * 2>/dev/null
+vericom +v2k -f ../../filelist/vlog.list
+vhdlcom -93  -f ../../filelist/vhdl.list
+verdi -top demo_soc
