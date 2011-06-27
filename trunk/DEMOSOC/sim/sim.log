@@ -1,0 +1,677 @@
+Reading /opt/CAD/mentor_sim/modeltech/tcl/vsim/pref.tcl 
+
+# 6.5
+
+# do ./sim.do 
+# Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+# -- Loading package standard
+# -- Compiling package pkg
+# -- Compiling package body pkg
+# -- Loading package pkg
+# -- Compiling entity novas
+# -- Compiling architecture novas_arch of novas
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module eth_clockgen
+# -- Compiling module eth_crc
+# -- Compiling module eth_fifo
+# -- Compiling module eth_receivecontrol
+# -- Compiling module eth_maccontrol
+# -- Compiling module eth_macstatus
+# -- Compiling module eth_miim
+# -- Compiling module eth_outputcontrol
+# -- Compiling module eth_random
+# -- Compiling module eth_register
+# -- Compiling module eth_registers
+# -- Compiling module eth_rxaddrcheck
+# -- Compiling module eth_rxcounters
+# -- Compiling module eth_rxstatem
+# -- Compiling module eth_rxethmac
+# -- Compiling module eth_shiftreg
+# -- Compiling module eth_spram_256x32
+# -- Compiling module eth_txcounters
+# -- Compiling module eth_txethmac
+# -- Compiling module eth_txstatem
+# -- Compiling module eth_wishbone
+# -- Compiling module eth_transmitcontrol
+# -- Compiling module eth_top
+# 
+# Top level modules:
+# 	eth_top
+# Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling package amba
+# -- Compiling package target
+# -- Loading package target
+# -- Compiling package device
+# -- Loading package std_logic_arith
+# -- Loading package device
+# -- Loading package textio
+# -- Compiling package config
+# -- Loading package config
+# -- Compiling package mmuconfig
+# -- Loading package mmuconfig
+# -- Compiling package mmulib
+# -- Compiling package body mmulib
+# -- Loading package mmulib
+# -- Compiling package sparcv8
+# -- Loading package sparcv8
+# -- Compiling package iface
+# -- Loading package iface
+# -- Compiling package macro
+# -- Compiling package body macro
+# -- Loading package macro
+# -- Loading package amba
+# -- Compiling package ambacomp
+# -- Compiling package multlib
+# -- Compiling entity pp_low
+# -- Compiling entity pp_middle
+# -- Compiling entity pp_high
+# -- Compiling entity r_gate
+# -- Compiling entity decoder
+# -- Compiling entity full_adder
+# -- Compiling entity half_adder
+# -- Compiling entity invblock
+# -- Compiling entity xxor1
+# -- Compiling entity block0
+# -- Compiling entity block1
+# -- Compiling entity block2
+# -- Compiling entity block1a
+# -- Compiling entity block2a
+# -- Compiling entity prestage_64
+# -- Compiling entity dblc_0_64
+# -- Compiling entity dblc_1_64
+# -- Compiling entity dblc_2_64
+# -- Compiling entity dblc_3_64
+# -- Compiling entity dblc_4_64
+# -- Compiling entity dblc_5_64
+# -- Compiling entity xorstage_64
+# -- Compiling entity dblctree_64
+# -- Compiling entity dblcadder_64_64
+# -- Compiling architecture pp_low of pp_low
+# -- Compiling architecture pp_middle of pp_middle
+# -- Compiling architecture pp_high of pp_high
+# -- Compiling architecture r_gate of r_gate
+# -- Compiling architecture decoder of decoder
+# -- Compiling architecture full_adder of full_adder
+# -- Compiling architecture half_adder of half_adder
+# -- Compiling architecture invblock_regular of invblock
+# -- Compiling architecture block1_regular of block1
+# -- Compiling architecture block2_regular of block2
+# -- Compiling architecture block1a_regular of block1a
+# -- Compiling architecture block2a_regular of block2a
+# -- Compiling architecture xxor_regular of xxor1
+# -- Compiling architecture block0_regular of block0
+# -- Compiling architecture prestage of prestage_64
+# -- Compiling architecture dblc_0 of dblc_0_64
+# -- Compiling architecture dblc_1 of dblc_1_64
+# -- Compiling architecture dblc_2 of dblc_2_64
+# -- Compiling architecture dblc_3 of dblc_3_64
+# -- Compiling architecture dblc_4 of dblc_4_64
+# -- Compiling architecture dblc_5 of dblc_5_64
+# -- Compiling architecture xorstage of xorstage_64
+# -- Compiling architecture dblctree of dblctree_64
+# -- Compiling architecture dblcadder of dblcadder_64_64
+# -- Compiling entity xxor2
+# -- Compiling architecture xxor_true of xxor2
+# -- Compiling entity dblcadder_32_32
+# -- Compiling entity dblc_0_32
+# -- Compiling entity dblc_1_32
+# -- Compiling entity dblc_2_32
+# -- Compiling entity dblc_3_32
+# -- Compiling entity dblc_4_32
+# -- Compiling architecture dblc_0 of dblc_0_32
+# -- Compiling architecture dblc_1 of dblc_1_32
+# -- Compiling architecture dblc_2 of dblc_2_32
+# -- Compiling architecture dblc_3 of dblc_3_32
+# -- Compiling architecture dblc_4 of dblc_4_32
+# -- Compiling entity xorstage_32
+# -- Compiling architecture xorstage of xorstage_32
+# -- Compiling entity prestage_32
+# -- Compiling architecture prestage of prestage_32
+# -- Compiling entity dblctree_32
+# -- Compiling architecture dblctree of dblctree_32
+# -- Compiling architecture dblcadder of dblcadder_32_32
+# -- Compiling entity prestage_128
+# -- Compiling entity dblc_0_128
+# -- Compiling entity dblc_1_128
+# -- Compiling entity dblc_2_128
+# -- Compiling entity dblc_3_128
+# -- Compiling entity dblc_4_128
+# -- Compiling entity dblc_5_128
+# -- Compiling entity dblc_6_128
+# -- Compiling entity xorstage_128
+# -- Compiling entity dblctree_128
+# -- Compiling entity dblcadder_128_128
+# -- Compiling architecture prestage of prestage_128
+# -- Compiling architecture dblc_0 of dblc_0_128
+# -- Compiling architecture dblc_1 of dblc_1_128
+# -- Compiling architecture dblc_2 of dblc_2_128
+# -- Compiling architecture dblc_3 of dblc_3_128
+# -- Compiling architecture dblc_4 of dblc_4_128
+# -- Compiling architecture dblc_5 of dblc_5_128
+# -- Compiling architecture dblc_6 of dblc_6_128
+# -- Compiling architecture xorstage of xorstage_128
+# -- Compiling architecture dblctree of dblctree_128
+# -- Compiling architecture dblcadder of dblcadder_128_128
+# -- Compiling entity multiplier_18_18
+# -- Compiling entity mul_17_17
+# -- Compiling architecture a of mul_17_17
+# -- Compiling entity boothcoder_18_18
+# -- Compiling entity wallace_18_18
+# -- Compiling architecture boothcoder of boothcoder_18_18
+# -- Compiling architecture wallace of wallace_18_18
+# -- Compiling architecture rtl of multiplier_18_18
+# -- Compiling entity multiplier_34_10
+# -- Compiling entity mul_33_9
+# -- Compiling architecture a of mul_33_9
+# -- Compiling entity boothcoder_34_10
+# -- Compiling entity wallace_34_10
+# -- Compiling architecture boothcoder of boothcoder_34_10
+# -- Compiling architecture wallace of wallace_34_10
+# -- Compiling architecture rtl of multiplier_34_10
+# -- Compiling entity multiplier_34_18
+# -- Compiling entity mul_33_17
+# -- Compiling architecture a of mul_33_17
+# -- Compiling entity boothcoder_34_18
+# -- Compiling entity wallace_34_18
+# -- Compiling architecture boothcoder of boothcoder_34_18
+# -- Compiling architecture wallace of wallace_34_18
+# -- Compiling architecture rtl of multiplier_34_18
+# -- Compiling entity multiplier_34_34
+# -- Compiling entity mul_33_33
+# -- Compiling architecture a of mul_33_33
+# -- Compiling entity boothcoder_34_34
+# -- Compiling entity wallace_34_34
+# -- Compiling architecture boothcoder of boothcoder_34_34
+# -- Compiling architecture wallace of wallace_34_34
+# -- Compiling architecture rtl of multiplier_34_34
+# -- Compiling entity add32
+# -- Compiling architecture a of add32
+# -- Compiling entity asic_syncram_ss
+# -- Compiling architecture behavioral of asic_syncram_ss
+# -- Compiling entity asic_dpram_ss
+# -- Compiling architecture behav of asic_dpram_ss
+# -- Compiling package tech_asic_sim
+# -- Loading package tech_asic_sim
+# -- Compiling entity ram16384x32
+# -- Compiling architecture behavioral of ram16384x32
+# -- Compiling entity ram8192x32
+# -- Compiling architecture behavioral of ram8192x32
+# -- Compiling entity ram4096x32
+# -- Compiling architecture behavioral of ram4096x32
+# -- Compiling entity ram2400x32
+# -- Compiling architecture behavioral of ram2400x32
+# -- Compiling entity ram2048x32
+# -- Compiling architecture behavioral of ram2048x32
+# -- Compiling entity ram1024x32
+# -- Compiling architecture behavioral of ram1024x32
+# -- Compiling entity ram512x32
+# -- Compiling architecture behavioral of ram512x32
+# -- Compiling entity ram256x32
+# -- Compiling architecture behavioral of ram256x32
+# -- Compiling entity ram128x32
+# -- Compiling architecture behavioral of ram128x32
+# -- Compiling entity ram64x32
+# -- Compiling architecture behavioral of ram64x32
+# -- Compiling entity ram32x32
+# -- Compiling architecture behavioral of ram32x32
+# -- Compiling entity ram64x31
+# -- Compiling architecture behavioral of ram64x31
+# -- Compiling entity ram32x31
+# -- Compiling architecture behavioral of ram32x31
+# -- Compiling entity ram32x30
+# -- Compiling architecture behavioral of ram32x30
+# -- Compiling entity ram64x30
+# -- Compiling architecture behavioral of ram64x30
+# -- Compiling entity ram128x30
+# -- Compiling architecture behavioral of ram128x30
+# -- Compiling entity ram256x29
+# -- Compiling architecture behavioral of ram256x29
+# -- Compiling entity ram128x29
+# -- Compiling architecture behavioral of ram128x29
+# -- Compiling entity ram64x29
+# -- Compiling architecture behavioral of ram64x29
+# -- Compiling entity ram512x28
+# -- Compiling architecture behavioral of ram512x28
+# -- Compiling entity ram256x28
+# -- Compiling architecture behavioral of ram256x28
+# -- Compiling entity ram128x28
+# -- Compiling architecture behavioral of ram128x28
+# -- Compiling entity ram64x28
+# -- Compiling architecture behavioral of ram64x28
+# -- Compiling entity ram1024x27
+# -- Compiling architecture behavioral of ram1024x27
+# -- Compiling entity ram512x27
+# -- Compiling architecture behavioral of ram512x27
+# -- Compiling entity ram256x27
+# -- Compiling architecture behavioral of ram256x27
+# -- Compiling entity ram128x27
+# -- Compiling architecture behavioral of ram128x27
+# -- Compiling entity ram64x27
+# -- Compiling architecture behavioral of ram64x27
+# -- Compiling entity ram2048x26
+# -- Compiling architecture behavioral of ram2048x26
+# -- Compiling entity ram1024x26
+# -- Compiling architecture behavioral of ram1024x26
+# -- Compiling entity ram512x26
+# -- Compiling architecture behavioral of ram512x26
+# -- Compiling entity ram256x26
+# -- Compiling architecture behavioral of ram256x26
+# -- Compiling entity ram128x26
+# -- Compiling architecture behavioral of ram128x26
+# -- Compiling entity ram64x26
+# -- Compiling architecture behavioral of ram64x26
+# -- Compiling entity ram2048x25
+# -- Compiling architecture behavioral of ram2048x25
+# -- Compiling entity ram1024x25
+# -- Compiling architecture behavioral of ram1024x25
+# -- Compiling entity ram512x25
+# -- Compiling architecture behavioral of ram512x25
+# -- Compiling entity ram256x25
+# -- Compiling architecture behavioral of ram256x25
+# -- Compiling entity ram128x25
+# -- Compiling architecture behavioral of ram128x25
+# -- Compiling entity ram2048x24
+# -- Compiling architecture behavioral of ram2048x24
+# -- Compiling entity ram1024x24
+# -- Compiling architecture behavioral of ram1024x24
+# -- Compiling entity ram512x24
+# -- Compiling architecture behavioral of ram512x24
+# -- Compiling entity ram256x24
+# -- Compiling architecture behavioral of ram256x24
+# -- Compiling entity ram2048x23
+# -- Compiling architecture behavioral of ram2048x23
+# -- Compiling entity ram1024x23
+# -- Compiling architecture behavioral of ram1024x23
+# -- Compiling entity ram512x23
+# -- Compiling architecture behavioral of ram512x23
+# -- Compiling entity ram4096x22
+# -- Compiling architecture behavioral of ram4096x22
+# -- Compiling entity ram2048x22
+# -- Compiling architecture behavioral of ram2048x22
+# -- Compiling entity ram1024x22
+# -- Compiling architecture behavioral of ram1024x22
+# -- Compiling entity ram4096x21
+# -- Compiling architecture behavioral of ram4096x21
+# -- Compiling entity ram2048x21
+# -- Compiling architecture behavioral of ram2048x21
+# -- Compiling entity ram4096x20
+# -- Compiling architecture behavioral of ram4096x20
+# -- Compiling entity dpram16x32
+# -- Compiling architecture behavioral of dpram16x32
+# -- Compiling entity dpram136x32
+# -- Compiling architecture behavioral of dpram136x32
+# -- Compiling entity dpram168x32
+# -- Compiling architecture behavioral of dpram168x32
+# -- Compiling entity dpram2048x32
+# -- Compiling architecture behavioral of dpram2048x32
+# -- Compiling entity dpram1024x32
+# -- Compiling architecture behavioral of dpram1024x32
+# -- Compiling entity dpram512x32
+# -- Compiling architecture behavioral of dpram512x32
+# -- Compiling entity dpram256x32
+# -- Compiling architecture behavioral of dpram256x32
+# -- Compiling entity dpram128x32
+# -- Compiling architecture behavioral of dpram128x32
+# -- Compiling entity dpram64x32
+# -- Compiling architecture behavioral of dpram64x32
+# -- Compiling entity dpram32x32
+# -- Compiling architecture behavioral of dpram32x32
+# -- Compiling entity dpram64x31
+# -- Compiling architecture behavioral of dpram64x31
+# -- Compiling entity dpram32x31
+# -- Compiling architecture behavioral of dpram32x31
+# -- Compiling entity dpram128x30
+# -- Compiling architecture behavioral of dpram128x30
+# -- Compiling entity dpram64x30
+# -- Compiling architecture behavioral of dpram64x30
+# -- Compiling entity dpram32x30
+# -- Compiling architecture behavioral of dpram32x30
+# -- Compiling entity dpram256x29
+# -- Compiling architecture behavioral of dpram256x29
+# -- Compiling entity dpram128x29
+# -- Compiling architecture behavioral of dpram128x29
+# -- Compiling entity dpram64x29
+# -- Compiling architecture behavioral of dpram64x29
+# -- Compiling entity dpram512x28
+# -- Compiling architecture behavioral of dpram512x28
+# -- Compiling entity dpram256x28
+# -- Compiling architecture behavioral of dpram256x28
+# -- Compiling entity dpram128x28
+# -- Compiling architecture behavioral of dpram128x28
+# -- Compiling entity dpram64x28
+# -- Compiling architecture behavioral of dpram64x28
+# -- Compiling entity dpram1024x27
+# -- Compiling architecture behavioral of dpram1024x27
+# -- Compiling entity dpram512x27
+# -- Compiling architecture behavioral of dpram512x27
+# -- Compiling entity dpram256x27
+# -- Compiling architecture behavioral of dpram256x27
+# -- Compiling entity dpram128x27
+# -- Compiling architecture behavioral of dpram128x27
+# -- Compiling entity dpram64x27
+# -- Compiling architecture behavioral of dpram64x27
+# -- Compiling entity dpram2048x26
+# -- Compiling architecture behavioral of dpram2048x26
+# -- Compiling entity dpram1024x26
+# -- Compiling architecture behavioral of dpram1024x26
+# -- Compiling entity dpram512x26
+# -- Compiling architecture behavioral of dpram512x26
+# -- Compiling entity dpram256x26
+# -- Compiling architecture behavioral of dpram256x26
+# -- Compiling entity dpram128x26
+# -- Compiling architecture behavioral of dpram128x26
+# -- Compiling entity dpram64x26
+# -- Compiling architecture behavioral of dpram64x26
+# -- Compiling entity dpram2048x25
+# -- Compiling architecture behavioral of dpram2048x25
+# -- Compiling entity dpram1024x25
+# -- Compiling architecture behavioral of dpram1024x25
+# -- Compiling entity dpram512x25
+# -- Compiling architecture behavioral of dpram512x25
+# -- Compiling entity dpram256x25
+# -- Compiling architecture behavioral of dpram256x25
+# -- Compiling entity dpram128x25
+# -- Compiling architecture behavioral of dpram128x25
+# -- Compiling entity dpram2048x24
+# -- Compiling architecture behavioral of dpram2048x24
+# -- Compiling entity dpram1024x24
+# -- Compiling architecture behavioral of dpram1024x24
+# -- Compiling entity dpram512x24
+# -- Compiling architecture behavioral of dpram512x24
+# -- Compiling entity dpram256x24
+# -- Compiling architecture behavioral of dpram256x24
+# -- Compiling entity dpram2048x23
+# -- Compiling architecture behavioral of dpram2048x23
+# -- Compiling entity dpram1024x23
+# -- Compiling architecture behavioral of dpram1024x23
+# -- Compiling entity dpram512x23
+# -- Compiling architecture behavioral of dpram512x23
+# -- Compiling entity dpram4096x22
+# -- Compiling architecture behavioral of dpram4096x22
+# -- Compiling entity dpram2048x22
+# -- Compiling architecture behavioral of dpram2048x22
+# -- Compiling entity dpram1024x22
+# -- Compiling architecture behavioral of dpram1024x22
+# -- Compiling entity dpram4096x21
+# -- Compiling architecture behavioral of dpram4096x21
+# -- Compiling entity dpram2048x21
+# -- Compiling architecture behavioral of dpram2048x21
+# -- Compiling entity dpram4096x20
+# -- Compiling architecture behavioral of dpram4096x20
+# -- Compiling entity tiehi
+# -- Compiling architecture behavioral of tiehi
+# -- Compiling entity tielo
+# -- Compiling architecture behavioral of tielo
+# -- Compiling entity pdidgz
+# -- Compiling architecture rtl of pdidgz
+# -- Compiling entity pdisdgz
+# -- Compiling architecture rtl of pdisdgz
+# -- Compiling entity pdt02dgz
+# -- Compiling architecture rtl of pdt02dgz
+# -- Compiling entity pdt04dgz
+# -- Compiling architecture rtl of pdt04dgz
+# -- Compiling entity pdt08dgz
+# -- Compiling architecture rtl of pdt08dgz
+# -- Compiling entity pdt12dgz
+# -- Compiling architecture rtl of pdt12dgz
+# -- Compiling entity pdt16dgz
+# -- Compiling architecture rtl of pdt16dgz
+# -- Compiling entity pdt24dgz
+# -- Compiling architecture rtl of pdt24dgz
+# -- Compiling entity pdu02dgz
+# -- Compiling architecture rtl of pdu02dgz
+# -- Compiling entity pdu04dgz
+# -- Compiling architecture rtl of pdu04dgz
+# -- Compiling entity pdu08dgz
+# -- Compiling architecture rtl of pdu08dgz
+# -- Compiling entity pdu12dgz
+# -- Compiling architecture rtl of pdu12dgz
+# -- Compiling entity pdu16dgz
+# -- Compiling architecture rtl of pdu16dgz
+# -- Compiling entity pdu24dgz
+# -- Compiling architecture rtl of pdu24dgz
+# -- Compiling entity pdb02dgz
+# -- Compiling architecture rtl of pdb02dgz
+# -- Compiling entity pdb04dgz
+# -- Compiling architecture rtl of pdb04dgz
+# -- Compiling entity pdb08dgz
+# -- Compiling architecture rtl of pdb08dgz
+# -- Compiling entity pdb12dgz
+# -- Compiling architecture rtl of pdb12dgz
+# -- Compiling entity pdb16dgz
+# -- Compiling architecture rtl of pdb16dgz
+# -- Compiling entity pdb24dgz
+# -- Compiling architecture rtl of pdb24dgz
+# -- Compiling entity pdb02sdgz
+# -- Compiling architecture rtl of pdb02sdgz
+# -- Compiling entity pdb04sdgz
+# -- Compiling architecture rtl of pdb04sdgz
+# -- Compiling entity pdb08sdgz
+# -- Compiling architecture rtl of pdb08sdgz
+# -- Compiling entity pdb12sdgz
+# -- Compiling architecture rtl of pdb12sdgz
+# -- Compiling entity pdb16sdgz
+# -- Compiling architecture rtl of pdb16sdgz
+# -- Compiling entity pdb24sdgz
+# -- Compiling architecture rtl of pdb24sdgz
+# -- Compiling entity prb08dgz
+# -- Compiling architecture rtl of prb08dgz
+# -- Compiling entity prt08dgz
+# -- Compiling architecture rtl of prt08dgz
+# -- Compiling package tech_generic
+# -- Compiling entity generic_syncram
+# -- Compiling architecture behavioral of generic_syncram
+# -- Compiling entity generic_dpram_ss
+# -- Compiling architecture behav of generic_dpram_ss
+# -- Compiling entity generic_2pram
+# -- Compiling architecture behav of generic_2pram
+# -- Compiling entity generic_dpram_as
+# -- Compiling architecture behav of generic_dpram_as
+# -- Compiling entity rfbypass
+# -- Compiling architecture rtl of rfbypass
+# -- Compiling entity generic_regfile_iu
+# -- Compiling architecture rtl of generic_regfile_iu
+# -- Compiling entity generic_regfile_cp
+# -- Compiling architecture rtl of generic_regfile_cp
+# -- Compiling entity generic_smult
+# -- Compiling architecture rtl of generic_smult
+# -- Compiling entity generic_clkgen
+# -- Compiling architecture rtl of generic_clkgen
+# -- Compiling entity geninpad
+# -- Compiling architecture rtl of geninpad
+# -- Compiling entity gensmpad
+# -- Compiling architecture rtl of gensmpad
+# -- Compiling entity genoutpad
+# -- Compiling architecture rtl of genoutpad
+# -- Compiling entity gentoutpadu
+# -- Compiling architecture rtl of gentoutpadu
+# -- Compiling entity geniopad
+# -- Compiling architecture rtl of geniopad
+# -- Compiling entity geniodpad
+# -- Compiling architecture rtl of geniodpad
+# -- Compiling entity genodpad
+# -- Compiling architecture rtl of genodpad
+# -- Compiling package tech_asic_syn
+# -- Compiling package tech_asic
+# -- Loading package tech_asic_syn
+# -- Compiling entity asic_syncram
+# -- Compiling architecture rtl of asic_syncram
+# -- Compiling entity asic_dpram
+# -- Compiling architecture rtl of asic_dpram
+# -- Compiling entity asic_regfile_iu
+# -- Compiling architecture rtl of asic_regfile_iu
+# -- Compiling entity asic_regfile_cp
+# -- Compiling architecture rtl of asic_regfile_cp
+# -- Compiling entity asic_inpad
+# -- Compiling architecture syn of asic_inpad
+# -- Compiling entity asic_smpad
+# -- Compiling architecture syn of asic_smpad
+# -- Compiling entity asic_outpad
+# -- Compiling architecture syn of asic_outpad
+# -- Compiling entity asic_toutpad
+# -- Compiling architecture syn of asic_toutpad
+# -- Compiling entity asic_iopad
+# -- Compiling architecture syn of asic_iopad
+# -- Compiling entity asic_iodpad
+# -- Compiling architecture syn of asic_iodpad
+# -- Compiling entity asic_odpad
+# -- Compiling architecture syn of asic_odpad
+# -- Compiling entity asic_smiopad
+# -- Compiling architecture syn of asic_smiopad
+# -- Compiling entity asic_pciinpad
+# -- Compiling architecture rtl of asic_pciinpad
+# -- Compiling entity asic_pcioutpad
+# -- Compiling architecture rtl of asic_pcioutpad
+# -- Compiling entity asic_pcitoutpad
+# -- Compiling architecture rtl of asic_pcitoutpad
+# -- Compiling entity asic_pciiopad
+# -- Compiling architecture rtl of asic_pciiopad
+# -- Compiling entity asic_pciiodpad
+# -- Compiling architecture rtl of asic_pciiodpad
+# -- Compiling package tech_fpga
+# -- Compiling entity fpga_prom256
+# -- Compiling architecture dummy of fpga_prom256
+# -- Compiling entity fpga_prom512
+# -- Compiling architecture dummy of fpga_prom512
+# -- Compiling entity fpga_prom1024
+# -- Compiling architecture dummy of fpga_prom1024
+# -- Compiling entity fpga_prom2048
+# -- Compiling architecture dummy of fpga_prom2048
+# -- Compiling entity fpga_bprom
+# -- Compiling architecture rtl of fpga_bprom
+# -- Loading package tech_generic
+# -- Compiling entity ramb4_s16
+# -- Compiling architecture behav of ramb4_s16
+# -- Compiling entity ramb4_s8
+# -- Compiling architecture behav of ramb4_s8
+# -- Compiling entity ramb4_s4
+# -- Compiling architecture behav of ramb4_s4
+# -- Compiling entity ramb4_s2
+# -- Compiling architecture behav of ramb4_s2
+# -- Compiling entity ramb4_s1
+# -- Compiling architecture behav of ramb4_s1
+# -- Compiling entity ramb4_s1_s1
+# -- Compiling architecture behav of ramb4_s1_s1
+# -- Compiling entity ramb4_s2_s2
+# -- Compiling architecture behav of ramb4_s2_s2
+# -- Compiling entity ramb4_s8_s8
+# -- Compiling architecture behav of ramb4_s8_s8
+# -- Compiling entity ramb4_s4_s4
+# -- Compiling architecture behav of ramb4_s4_s4
+# -- Compiling entity ramb4_s16_s16
+# -- Compiling architecture behav of ramb4_s16_s16
+# -- Compiling entity ibuf_pci33_3
+# -- Compiling architecture beh of ibuf_pci33_3
+# -- Compiling entity obuf_pci33_3
+# -- Compiling architecture beh of obuf_pci33_3
+# -- Compiling entity iobuf_pci33_3
+# -- Compiling architecture beh of iobuf_pci33_3
+# -- Compiling entity obuft_pci33_3
+# -- Compiling architecture beh of obuft_pci33_3
+# -- Compiling package fpga_complib
+# -- Loading package fpga_complib
+# -- Compiling entity fpga_syncram
+# -- Compiling architecture behav of fpga_syncram
+# -- Compiling entity fpga_dpram
+# -- Compiling architecture behav of fpga_dpram
+# -- Loading package tech_fpga
+# -- Compiling entity fpga_regfile
+# -- Compiling architecture behav of fpga_regfile
+# -- Compiling entity fpga_regfile_cp
+# -- Compiling architecture behav of fpga_regfile_cp
+# -- Compiling entity fpga_pciinpad
+# -- Compiling architecture rtl of fpga_pciinpad
+# -- Compiling entity fpga_pcioutpad
+# -- Compiling architecture rtl of fpga_pcioutpad
+# -- Compiling entity fpga_pcitoutpad
+# -- Compiling architecture rtl of fpga_pcitoutpad
+# -- Compiling entity fpga_pciiopad
+# -- Compiling architecture rtl of fpga_pciiopad
+# -- Compiling entity fpga_pciiodpad
+# -- Compiling architecture rtl of fpga_pciiodpad
+# -- Compiling entity fpga_clkgen
+# -- Compiling architecture rtl of fpga_clkgen
+# -- Compiling package tech_map
+# -- Loading package tech_asic
+# -- Compiling entity syncram
+# -- Compiling architecture behav of syncram
+# -- Compiling entity dpsyncram
+# -- Compiling architecture behav of dpsyncram
+# -- Compiling entity twopsyncram
+# -- Compiling architecture behav of twopsyncram
+# -- Compiling entity regfile_iu
+# -- Compiling architecture rtl of regfile_iu
+# -- Compiling entity regfile_cp
+# -- Compiling architecture rtl of regfile_cp
+# -- Compiling entity bprom
+# -- Compiling architecture rtl of bprom
+# -- Loading package multlib
+# -- Compiling entity hw_smult
+# -- Compiling architecture rtl of hw_smult
+# -- Compiling entity inpad
+# -- Compiling architecture rtl of inpad
+# -- Compiling entity smpad
+# -- Compiling architecture rtl of smpad
+# -- Compiling entity outpad
+# -- Compiling architecture rtl of outpad
+# -- Compiling entity toutpad
+# -- Compiling architecture rtl of toutpad
+# -- Compiling entity iopad
+# -- Compiling architecture rtl of iopad
+# -- Compiling entity smiopad
+# -- Compiling architecture rtl of smiopad
+# -- Compiling entity odpad
+# -- Compiling architecture rtl of odpad
+# -- Compiling entity iodpad
+# -- Compiling architecture rtl of iodpad
+# -- Loading package tech_map
+# -- Compiling entity pciinpad
+# -- Compiling architecture rtl of pciinpad
+# -- Compiling entity pcioutpad
+# -- Compiling architecture rtl of pcioutpad
+# -- Compiling entity pcitoutpad
+# -- Compiling architecture rtl of pcitoutpad
+# -- Compiling entity pciiopad
+# -- Compiling architecture rtl of pciiopad
+# -- Compiling entity pciiodpad
+# -- Compiling architecture rtl of pciiodpad
+# -- Loading package std_logic_unsigned
+# -- Compiling entity mul
+# -- Compiling architecture rtl of mul
+# -- Compiling entity div
+# -- Compiling architecture rtl of div
+# -- Compiling entity apbmst
+# -- Compiling architecture rtl of apbmst
+# -- Loading package macro
+# -- Compiling entity ahbmst
+# -- Compiling architecture rtl of ahbmst
+# -- Compiling entity ahbstat
+# -- Compiling architecture rtl of ahbstat
+# -- Compiling entity ahbtest
+# -- Compiling architecture struct of ahbtest
+# -- Compiling entity ahbarb
+# -- Compiling architecture rtl of ahbarb
+# -- Compiling entity ahbram
+# -- Compiling architecture rtl of ahbram
+# -- Compiling entity irqctrl
+# -- Compiling architecture rtl of irqctrl
+# -- Compiling entity irqctrl2
+# -- Compiling architecture rtl of irqctrl2
+# -- Compiling entity apbgpio
+# -- Compiling architecture rtl of apbgpio
+# -- Compiling entity apbcharlcd
+# -- Compiling architecture rtl of apbcharlcd
+# -- Compiling entity timers
+# -- Compiling architecture rtl of timers
+# ** Error: (vcom-7) Failed to open design unit file "../../rtl/peri/uart/dcom_uart.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vcom-7) Failed to open design unit file "../../rtl/peri/uart/dcom.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: /opt/CAD/mentor_sim/modeltech/linux/vcom failed.
+# Error in macro ././sim.do line 4
+# /opt/CAD/mentor_sim/modeltech/linux/vcom failed.
+#     while executing
+# "vcom -93  -f ../../filelist/vhdl.list "
+ModelSim> 
